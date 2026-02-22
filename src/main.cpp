@@ -44,7 +44,7 @@ int main() {
     
     // 1. Ruta básica GET - Hola Mundo
     svr.Get("/", [](const Request& req, Response& res) {
-        res.set_content("<h1>Hola Mundo desde mi microservicio!</h1>", "text/html");
+        res.set_content("<h1>Hola, Microservicio de Aaron!</h1>", "text/html");
     });
     
     // 2. GET con parámetros en la URL (query string)
