@@ -263,7 +263,7 @@ int main() {
     cout << "Presiona Ctrl+C para detener" << endl;
     cout << "==========================================" << endl;
     
-    svr.listen("localhost", 8080);
+    svr.listen("0.0.0.0", 8080);
     
     return 0;
 }
