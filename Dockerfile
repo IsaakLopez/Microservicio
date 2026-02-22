@@ -5,7 +5,7 @@ FROM gcc:13
 WORKDIR /app
 
 # 3. Copia todo el contenido de src/ al contenedor
-COPY . .
+COPY src/ .
 
 # 4. Compila el C++ dentro del contenedor
 #    httplib.h está en el mismo directorio que main.cpp
